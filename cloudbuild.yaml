@@ -5,7 +5,7 @@
         'deploy',
         '--runtime',
         'nodejs8',
-        '--trigger-http,
+        '--trigger-http',
         '--source',
         './',
         '--entry-point',
