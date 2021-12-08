@@ -13,5 +13,5 @@
         'helloCiCd',
       ]
   #gcloud functions deploy --runtime=nodejs8 --trigger-http --source=./ --entry-point=helloCiCd helloCiCd
- waitFor: ['_'] #_ which means Don’t wait. It is Optional.
+ waitFor: ['-'] #_ which means Don’t wait. It is Optional.
  id: 'deploying-a-serverless-function'
